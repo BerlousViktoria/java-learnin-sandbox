@@ -1,5 +1,6 @@
 # Java Learning Sandbox
 Репозиторій для самонавчання
+
 ## Технології:
 * Java 21
 * Apache Maven
