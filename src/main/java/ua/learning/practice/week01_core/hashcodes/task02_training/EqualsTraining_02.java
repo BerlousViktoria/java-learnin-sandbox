@@ -4,10 +4,6 @@ import java.util.Objects;
 
 public class EqualsTraining_02 {
     public static void main(String[] args){
-
-
-
-
     }
 
     class UserProfile{
