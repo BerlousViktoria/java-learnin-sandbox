@@ -1,4 +1,4 @@
-package ua.learning.practice.week01_core.hashcodes.task_05_training;
+package ua.learning.practice.week01_core.equals.task_05_training;
 
 import java.util.Objects;
 

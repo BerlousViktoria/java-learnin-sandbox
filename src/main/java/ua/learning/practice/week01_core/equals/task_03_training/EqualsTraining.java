@@ -1,8 +1,7 @@
-package ua.learning.practice.week01_core.hashcodes.task_03_training;
+package ua.learning.practice.week01_core.equals.task_03_training;
 
 import java.util.Arrays;
 import java.util.Objects;
-import java.util.stream.Stream;
 
 public class EqualsTraining {
     public static void main(String[] args) {

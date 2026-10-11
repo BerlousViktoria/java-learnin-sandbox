@@ -1,6 +1,4 @@
-package ua.learning.practice.week01_core.hashcodes.task01_training;
-
-import com.sun.jdi.VMOutOfMemoryException;
+package ua.learning.practice.week01_core.equals.task01_training;
 
 public class EqualsTraining {
     public static void main(String[] args) {
