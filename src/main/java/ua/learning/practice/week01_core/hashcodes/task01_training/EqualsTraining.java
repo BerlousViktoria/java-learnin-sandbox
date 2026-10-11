@@ -29,10 +29,9 @@ public class EqualsTraining {
             if (o == this){
                 return true;
             }
-            if (!(o instanceof Money)){
+            if (!(o instanceof Money other)){
                 return false;
             }
-            Money other = (Money) o;
             boolean currencyCodeEquals = (this.currencyCode == null && other.currencyCode == null) ||
                     (this.currencyCode != null && this.currencyCode.equals(other.currencyCode));
             return this.amount == other.amount && currencyCodeEquals;
@@ -40,8 +39,8 @@ public class EqualsTraining {
     }
 
     static class Voucher{
-        private Money value;
-        private String store;
+        private final Money value;
+        private final String store;
 
         public Voucher(int amount, String currencyCode, String store){
             this.value = new Money(amount, currencyCode);
@@ -53,9 +52,8 @@ public class EqualsTraining {
         public boolean equals(Object o){
             if (o == this)
                 return true;
-            if (!(o instanceof Voucher))
+            if (!(o instanceof Voucher other))
                 return false;
-            Voucher other = (Voucher) o;
             boolean valueEquals = (this.value == null && other.value == null)
                     || (this.value != null && this.value.equals(other.value));
             boolean storeEquals = (this.store == null && other.store == null)

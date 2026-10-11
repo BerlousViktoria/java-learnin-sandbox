@@ -7,9 +7,9 @@ public class EqualsTraining_02 {
     }
 
     class UserProfile{
-        private long id;
-        private String email;
-        private int age;
+        private final long id;
+        private final String email;
+        private final int age;
 
         public UserProfile(long id, String email, int age) {
             this.id = id;
