@@ -6,5 +6,4 @@
 * Apache Maven
 
 ## Структура пакетів:
-* `ua.learning.topic01_streams` - Stream API
-* `ua.lerning.topic02_collections` - колекції
+* у процесі...
